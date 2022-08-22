@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-color: silver;
+  font-family: 'Righteous', monospace;
+}
+#board {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 12em);
+  grid-template-rows: repeat(3, 12em);
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+p {
+  display: inline-block;
+  margin: 15px;
+}
+
+#reset {
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  font-family: 'Orbitron', monospace;
+}
+
+div {
+  display: inline-block;
+  border: 3px inset black;
+  text-align: center;
+  border-right-style: none;
+  border-top-style: none;
+  font-size: 10em;
+  font-family: 'Righteous', monospace;
+}
+
+.left {
+  border-left-style: none;
+}
+
+.bottom {
+  border-bottom-style: none;
+}
+
+.gamemode {
+  display: block;
+}
+
+#scoreboard {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid black;
+  color: #F64823;
+  background-color: black;
+  font-family: 'Orbitron', monospace;
+  border-radius: 5px;
+}
+
+#clearscore {
+  background-color: #F64823;
+  color: black;
+  font-family: 'Orbitron', monospace;
+}
+
+#toggle { 
+  background-color: #90C8AC;
+  color: black;
+  border-radius: 5px;
+  font-family: 'Orbitron', monospace;
+}

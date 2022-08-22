@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- Build your game board, instructions, and score displays here! -->
+<h1>Tic-Tac-Toe</h1>
+<h2 id="message">Click on the board to start a game!</h2> 
+<button id="reset">Reset Board</button>
+<button id="toggle">Switch Mode</button>
+  <section class="gamemode">
+    <p id="mode"> Player vs. Player</p>
+  </section>
+  <section id="board" value="X">
+    <div class="left" data-space="open" data-held="1"></div>
+    <div data-space="open" data-held="2"></div>
+    <div data-space="open" data-held="3"> </div>
+    <div class="left" data-space="open" data-held="4"> </div>
+    <div data-space="open" data-held="5"> </div>
+    <div data-space="open" data-held="6"></div>
+    <div class = "left bottom" data-space="open" data-held="7"></div>
+    <div class="bottom" data-space="open" data-held="8"></div>
+    <div class="bottom" data-space="open" data-held="9"></div>
+  </section>
+
+  <section id="scoreboard">
+    <p id="Xwins">X: 0</p>
+    <button id="clearscore">Clear Score</button>
+    <p id="Owins">O: 0</p>
+  </section>
+  <!-- Build your game board, instructions, and score displays here! -->
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
