@@ -8,7 +8,7 @@
 
 ### _Description_
 
-A simple iteration of the classic game of tic-tac-toe which allows you to play against a friend on the same device or against the program itself! Try it [here](https://fire-cobra.surge.sh/index.html)!
+A simple iteration of the classic game of tic-tac-toe which allows you to play against a friend on the same device or against the program itself! Try it [here](https://tictactoe-timothy.surge.sh/index.html)!
 
 ### _Technologies Used_
 
